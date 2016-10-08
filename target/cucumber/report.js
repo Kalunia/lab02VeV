@@ -7,7 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 649857,
+=======
+  "duration": 729297,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -37,7 +41,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 137869165,
+=======
+  "duration": 67386051,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -54,7 +62,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_sum_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 2294808,
+=======
+  "duration": 1129982,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +79,11 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 160253,
+=======
+  "duration": 67658,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -139,7 +155,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 51922,
+=======
+  "duration": 24734,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -176,7 +196,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 123174,
+=======
+  "duration": 15804,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -193,7 +217,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 183526,
+=======
+  "duration": 100177,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -206,11 +234,19 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 85794,
   "status": "passed"
 });
 formatter.before({
   "duration": 43677,
+=======
+  "duration": 44160,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 19805,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -247,7 +283,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 39610,
+=======
+  "duration": 13909,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -264,7 +304,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 146450,
+=======
+  "duration": 93847,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -277,11 +321,19 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 114803,
   "status": "passed"
 });
 formatter.before({
   "duration": 44934,
+=======
+  "duration": 55490,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 18861,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -318,7 +370,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 29655,
+=======
+  "duration": 14234,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +391,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 168266,
+=======
+  "duration": 89682,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -348,11 +408,19 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 113214,
   "status": "passed"
 });
 formatter.before({
   "duration": 41419,
+=======
+  "duration": 53760,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 20313,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -387,7 +455,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 34810,
+=======
+  "duration": 17865,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -404,18 +476,30 @@ formatter.match({
   "location": "CalculadoraSteps.i_div_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 208777,
+=======
+  "duration": 134844,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
   "location": "CalculadoraSteps.should_show_an_error(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 51786887,
   "status": "passed"
 });
 formatter.before({
   "duration": 58900,
+=======
+  "duration": 21101559,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 29949,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.scenario({
@@ -445,7 +529,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 50546,
+=======
+  "duration": 15325,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -462,7 +550,11 @@ formatter.match({
   "location": "CalculadoraSteps.i_div_with(int,int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 234139,
+=======
+  "duration": 92709,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 formatter.match({
@@ -475,7 +567,11 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 159292,
+=======
+  "duration": 46276,
+>>>>>>> bd0c3a2f615c75424c8c5875bea424e0a6061e0b
   "status": "passed"
 });
 });
