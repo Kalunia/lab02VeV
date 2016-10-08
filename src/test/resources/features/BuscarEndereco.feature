@@ -2,7 +2,7 @@ Feature: BuscarEndereco
 	Como sistema, quero validar um CEP e buscar o endereço 
 correspondente através do serviço dos Correios
 	
-Scenario: Buscar endereco 
+Scenario Outline: Buscar endereco 
 	Given Eu tenho um cep
 	When Eu envio <cep> para os correios
 	Then o resultado deve ser <address> 

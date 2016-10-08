@@ -5,13 +5,14 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = { "pretty", "html:target/cucumber" },
         glue = "br.unicamp.exemplo.steps",
-        features = "classpath:features/BuscarEndereco.feature"
+        features = "classpath:features/CalcularFrete.feature"
 )
 
-public class BuscarEndereco {
+public class RunCalcularFreteTest {
 
 }
