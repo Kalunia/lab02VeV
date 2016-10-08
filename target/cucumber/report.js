@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2612896,
+  "duration": 649857,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,7 +37,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 84242028,
+  "duration": 137869165,
   "status": "passed"
 });
 formatter.match({
@@ -54,7 +54,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_sum_with(int,int)"
 });
 formatter.result({
-  "duration": 1034343,
+  "duration": 2294808,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +67,7 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
-  "duration": 52400,
+  "duration": 160253,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -139,7 +139,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 19996,
+  "duration": 51922,
   "status": "passed"
 });
 formatter.scenario({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 26159,
+  "duration": 123174,
   "status": "passed"
 });
 formatter.match({
@@ -193,7 +193,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
-  "duration": 75324,
+  "duration": 183526,
   "status": "passed"
 });
 formatter.match({
@@ -206,11 +206,11 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
-  "duration": 30391,
+  "duration": 85794,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14069,
+  "duration": 43677,
   "status": "passed"
 });
 formatter.scenario({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 9438,
+  "duration": 39610,
   "status": "passed"
 });
 formatter.match({
@@ -264,7 +264,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
-  "duration": 57794,
+  "duration": 146450,
   "status": "passed"
 });
 formatter.match({
@@ -277,11 +277,11 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
-  "duration": 37215,
+  "duration": 114803,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13461,
+  "duration": 44934,
   "status": "passed"
 });
 formatter.scenario({
@@ -318,7 +318,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 11949,
+  "duration": 29655,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_mult_with(int,int)"
 });
 formatter.result({
-  "duration": 73365,
+  "duration": 168266,
   "status": "passed"
 });
 formatter.match({
@@ -348,11 +348,11 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
-  "duration": 42680,
+  "duration": 113214,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17618,
+  "duration": 41419,
   "status": "passed"
 });
 formatter.scenario({
@@ -387,7 +387,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 14317,
+  "duration": 34810,
   "status": "passed"
 });
 formatter.match({
@@ -404,18 +404,18 @@ formatter.match({
   "location": "CalculadoraSteps.i_div_with(int,int)"
 });
 formatter.result({
-  "duration": 109256,
+  "duration": 208777,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculadoraSteps.should_show_an_error(String)"
 });
 formatter.result({
-  "duration": 19816359,
+  "duration": 51786887,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23299,
+  "duration": 58900,
   "status": "passed"
 });
 formatter.scenario({
@@ -445,7 +445,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_have_a_calculator()"
 });
 formatter.result({
-  "duration": 16164,
+  "duration": 50546,
   "status": "passed"
 });
 formatter.match({
@@ -462,7 +462,7 @@ formatter.match({
   "location": "CalculadoraSteps.i_div_with(int,int)"
 });
 formatter.result({
-  "duration": 80090,
+  "duration": 234139,
   "status": "passed"
 });
 formatter.match({
@@ -475,7 +475,7 @@ formatter.match({
   "location": "CalculadoraSteps.the_result_should_be(int)"
 });
 formatter.result({
-  "duration": 41875,
+  "duration": 159292,
   "status": "passed"
 });
 });
