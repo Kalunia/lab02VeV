@@ -1,6 +1,4 @@
 /home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/steps/BuscarEnderecoSteps.java
-/home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/steps/CalcularFreteSteps.java
 /home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/runner/RunCalculadoraTest.java
-/home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/runner/RunBuscarEndereco.java
+/home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/runner/BuscarEndereco.java
 /home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/steps/CalculadoraSteps.java
-/home/jorge/workspace/lab02VeV/src/test/java/br/unicamp/exemplo/runner/RunCalcularFreteTest.java

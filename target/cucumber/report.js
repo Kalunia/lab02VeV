@@ -1,46 +1,48 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/CalcularFrete.feature");
 formatter.feature({
-  "line": 1,
-  "name": "CalcularFrete",
-  "description": "Como usuário, quero buscar o frete e o tempo de entrega previsto",
   "id": "calcularfrete",
-  "keyword": "Feature"
+  "description": "Como usuário, quero buscar o frete e o tempo de entrega previsto",
+  "name": "CalcularFrete",
+  "keyword": "Feature",
+  "line": 1
 });
 formatter.scenarioOutline({
-  "line": 4,
-  "name": "Buscar frete",
-  "description": "",
   "id": "calcularfrete;buscar-frete",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "description": "",
+  "name": "Buscar frete",
+  "keyword": "Scenario Outline",
+  "line": 4,
+  "type": "scenario_outline"
 });
 formatter.step({
-  "line": 5,
   "name": "Eu tenho uma calculadora",
-  "keyword": "Given "
+  "keyword": "Given ",
+  "line": 5
 });
 formatter.step({
-  "line": 6,
   "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 6
 });
 formatter.step({
-  "line": 7,
   "name": "Eu envio \u003ccep_destino\u003e, \u003cpeso\u003e, \u003clargura\u003e, \u003caltura\u003e, \u003ccomprimento\u003e para os correios de entrega \u003ctipo\u003e",
-  "keyword": "When "
+  "keyword": "When ",
+  "line": 7
 });
 formatter.step({
-  "line": 8,
   "name": "o resultado deve ser \u003cfrete\u003e",
-  "keyword": "Then "
+  "keyword": "Then ",
+  "line": 8
 });
 formatter.examples({
-  "line": 10,
-  "name": "",
-  "description": "",
   "id": "calcularfrete;buscar-frete;",
+  "description": "",
+  "name": "",
+  "keyword": "Examples",
+  "line": 10,
   "rows": [
     {
+      "id": "calcularfrete;buscar-frete;;1",
       "cells": [
         "peso",
         "largura",
@@ -49,10 +51,10 @@ formatter.examples({
         "tipo",
         "frete"
       ],
-      "line": 11,
-      "id": "calcularfrete;buscar-frete;;1"
+      "line": 11
     },
     {
+      "id": "calcularfrete;buscar-frete;;2",
       "cells": [
         "0.5",
         "0.05",
@@ -61,10 +63,10 @@ formatter.examples({
         "PAC",
         "10"
       ],
-      "line": 12,
-      "id": "calcularfrete;buscar-frete;;2"
+      "line": 12
     },
     {
+      "id": "calcularfrete;buscar-frete;;3",
       "cells": [
         "1",
         "0.1",
@@ -73,10 +75,10 @@ formatter.examples({
         "SEDEX",
         "15"
       ],
-      "line": 13,
-      "id": "calcularfrete;buscar-frete;;3"
+      "line": 13
     },
     {
+      "id": "calcularfrete;buscar-frete;;4",
       "cells": [
         "1.5",
         "0.2",
@@ -85,74 +87,72 @@ formatter.examples({
         "SEDEX 10",
         "20"
       ],
-      "line": 14,
-      "id": "calcularfrete;buscar-frete;;4"
+      "line": 14
     }
-  ],
-  "keyword": "Examples"
+  ]
 });
 formatter.before({
-  "duration": 37357,
+  "duration": 801711,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27530,
+  "duration": 577062,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26150,
+  "duration": 750667,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
-  "name": "Buscar frete",
-  "description": "",
   "id": "calcularfrete;buscar-frete;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
+  "description": "",
+  "name": "Buscar frete",
+  "keyword": "Scenario Outline",
+  "line": 12,
+  "type": "scenario"
 });
 formatter.step({
-  "line": 5,
   "name": "Eu tenho uma calculadora",
-  "keyword": "Given "
+  "keyword": "Given ",
+  "line": 5
 });
 formatter.step({
-  "line": 6,
   "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 6
 });
 formatter.step({
-  "line": 7,
   "name": "Eu envio \u003ccep_destino\u003e, 0.5, 0.05, 0.5, 0.6 para os correios de entrega PAC",
+  "keyword": "When ",
+  "line": 7,
   "matchedColumns": [
     0,
     1,
     2,
     3,
     4
-  ],
-  "keyword": "When "
+  ]
 });
 formatter.step({
-  "line": 8,
   "name": "o resultado deve ser 10",
+  "keyword": "Then ",
+  "line": 8,
   "matchedColumns": [
     5
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.match({
   "location": "CalcularFreteSteps.eu_tenho_uma_calculadora()"
 });
 formatter.result({
-  "duration": 6184132,
+  "duration": 117037739,
   "status": "passed"
 });
 formatter.match({
   "location": "CalcularFreteSteps.i_sum_with()"
 });
 formatter.result({
-  "duration": 30662,
+  "duration": 18337,
   "status": "passed"
 });
 formatter.match({});
@@ -164,139 +164,67 @@ formatter.result({
   "status": "undefined"
 });
 formatter.before({
-  "duration": 33662,
+  "duration": 48755,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19416,
+  "duration": 34344,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16903,
+  "duration": 29450,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Buscar frete",
-  "description": "",
   "id": "calcularfrete;buscar-frete;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "Eu tenho uma calculadora",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Eu envio \u003ccep_destino\u003e, 1, 0.1, 0.57, 0.65 para os correios de entrega SEDEX",
-  "matchedColumns": [
-    0,
-    1,
-    2,
-    3,
-    4
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "o resultado deve ser 15",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "CalcularFreteSteps.eu_tenho_uma_calculadora()"
-});
-formatter.result({
-  "duration": 24588,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CalcularFreteSteps.i_sum_with()"
-});
-formatter.result({
-  "duration": 28790,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.before({
-  "duration": 33793,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 19290,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 16163,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 14,
+  "description": "",
   "name": "Buscar frete",
-  "description": "",
-  "id": "calcularfrete;buscar-frete;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "line": 13,
+  "type": "scenario"
 });
 formatter.step({
-  "line": 5,
   "name": "Eu tenho uma calculadora",
-  "keyword": "Given "
+  "keyword": "Given ",
+  "line": 5
 });
 formatter.step({
-  "line": 6,
   "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 6
 });
 formatter.step({
+  "name": "Eu envio \u003ccep_destino\u003e, 1, 0.1, 0.57, 0.65 para os correios de entrega SEDEX",
+  "keyword": "When ",
   "line": 7,
-  "name": "Eu envio \u003ccep_destino\u003e, 1.5, 0.2, 0.7, 0.7 para os correios de entrega SEDEX 10",
   "matchedColumns": [
     0,
     1,
     2,
     3,
     4
-  ],
-  "keyword": "When "
+  ]
 });
 formatter.step({
+  "name": "o resultado deve ser 15",
+  "keyword": "Then ",
   "line": 8,
-  "name": "o resultado deve ser 20",
   "matchedColumns": [
     5
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.match({
   "location": "CalcularFreteSteps.eu_tenho_uma_calculadora()"
 });
 formatter.result({
-  "duration": 21520,
+  "duration": 18221,
   "status": "passed"
 });
 formatter.match({
   "location": "CalcularFreteSteps.i_sum_with()"
 });
 formatter.result({
-  "duration": 19788,
+  "duration": 18078,
   "status": "passed"
 });
 formatter.match({});
@@ -308,53 +236,125 @@ formatter.result({
   "status": "undefined"
 });
 formatter.before({
-  "duration": 50693,
+  "duration": 67698,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17618,
+  "duration": 61246,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14109,
+  "duration": 49546,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
-  "name": "Fluxo alternativo A",
+  "id": "calcularfrete;buscar-frete;;4",
   "description": "",
+  "name": "Buscar frete",
+  "keyword": "Scenario Outline",
+  "line": 14,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "Eu tenho uma calculadora",
+  "keyword": "Given ",
+  "line": 5
+});
+formatter.step({
+  "name": "Eu tenho algum produto no carrinho",
+  "keyword": "And ",
+  "line": 6
+});
+formatter.step({
+  "name": "Eu envio \u003ccep_destino\u003e, 1.5, 0.2, 0.7, 0.7 para os correios de entrega SEDEX 10",
+  "keyword": "When ",
+  "line": 7,
+  "matchedColumns": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+});
+formatter.step({
+  "name": "o resultado deve ser 20",
+  "keyword": "Then ",
+  "line": 8,
+  "matchedColumns": [
+    5
+  ]
+});
+formatter.match({
+  "location": "CalcularFreteSteps.eu_tenho_uma_calculadora()"
+});
+formatter.result({
+  "duration": 31277,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CalcularFreteSteps.i_sum_with()"
+});
+formatter.result({
+  "duration": 35206,
+  "status": "passed"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.before({
+  "duration": 245836,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 49783,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 49069,
+  "status": "passed"
+});
+formatter.scenario({
   "id": "calcularfrete;fluxo-alternativo-a",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "description": "",
+  "name": "Fluxo alternativo A",
+  "keyword": "Scenario",
+  "line": 16,
+  "type": "scenario"
 });
 formatter.step({
-  "line": 17,
   "name": "Eu tenho o cpf",
-  "keyword": "Given "
+  "keyword": "Given ",
+  "line": 17
 });
 formatter.step({
-  "line": 18,
   "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 18
 });
 formatter.step({
-  "line": 19,
   "name": "Eu envio cep para correios",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 19
 });
 formatter.step({
-  "line": 20,
   "name": "Eu envio [\"erro1\", \"erro2\", \"erro3\", \"erro4\"] para os correios de entrega \"erro5\"",
-  "keyword": "When "
+  "keyword": "When ",
+  "line": 20
 });
 formatter.step({
-  "line": 21,
   "name": "deve mostrar o erro com a mensagem:",
   "keyword": "Then ",
+  "line": 21,
   "doc_string": {
-    "content_type": "",
+    "value": "Favor corrigir os dados",
     "line": 22,
-    "value": "Favor corrigir os dados"
+    "content_type": ""
   }
 });
 formatter.match({});
@@ -375,55 +375,53 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.match({
-  "location": "BuscarEnderecoSteps.deve_mostrar_erro_com_a_mensagem(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.before({
-  "duration": 27400,
+  "duration": 44277,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16425,
+  "duration": 41799,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11446,
+  "duration": 39128,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
-  "name": "Fluxo alternativo B",
-  "description": "",
   "id": "calcularfrete;fluxo-alternativo-b",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "description": "",
+  "name": "Fluxo alternativo B",
+  "keyword": "Scenario",
+  "line": 26,
+  "type": "scenario"
 });
 formatter.step({
-  "line": 27,
   "name": "Eu tenho o cpf",
-  "keyword": "Given "
+  "keyword": "Given ",
+  "line": 27
 });
 formatter.step({
-  "line": 28,
   "name": "Eu tenho algum produto no carrinho",
-  "keyword": "And "
+  "keyword": "And ",
+  "line": 28
 });
 formatter.step({
-  "line": 29,
   "name": "Eu tenho erros no cadastro",
-  "keyword": "When "
+  "keyword": "When ",
+  "line": 29
 });
 formatter.step({
-  "line": 30,
   "name": "deve mostrar o erro com a mensagem:",
   "keyword": "Then ",
+  "line": 30,
   "doc_string": {
-    "content_type": "",
+    "value": "Favor corrigir os dados",
     "line": 31,
-    "value": "Favor corrigir os dados"
+    "content_type": ""
   }
 });
 formatter.match({});
@@ -440,10 +438,8 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.match({
-  "location": "BuscarEnderecoSteps.deve_mostrar_erro_com_a_mensagem(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 });
