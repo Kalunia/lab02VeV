@@ -2,9 +2,9 @@ Feature: CalcularFrete
 	Como usuário, quero buscar o frete e o tempo de entrega previsto
 	
 Scenario Outline: Buscar frete 
-	Given Eu tenho o cpf
-	And Eu tenho algum produto no carrinho 
-	When Eu envio [<peso>, <largura>, <altura>, <comprimento>] para os correios de entrega <tipo> 
+	Given Eu tenho uma calculadora 
+	And Eu tenho algum produto no carrinho
+	When Eu envio <cep_destino>, <peso>, <largura>, <altura>, <comprimento> para os correios de entrega <tipo> 
 	Then o resultado deve ser <frete> 
 	
 	Examples: 
