@@ -13,8 +13,8 @@ import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.testsupport.WireMockResponse;
 import com.github.tomakehurst.wiremock.testsupport.WireMockTestClient;
 
-import br.unicamp.bookstore.dao.Cep;
 import br.unicamp.bookstore.dao.DadosDeEntregaDAO;
+import br.unicamp.bookstore.domain.Cep;
 import br.unicamp.bookstore.domain.Produto;
 import br.unicamp.bookstore.helper.JsonHelper;
 import br.unicamp.bookstore.helper.XmlHelper;

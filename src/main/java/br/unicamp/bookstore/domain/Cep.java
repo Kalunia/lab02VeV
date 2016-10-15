@@ -1,4 +1,4 @@
-package br.unicamp.bookstore.dao;
+package br.unicamp.bookstore.domain;
 
 public class Cep {
 

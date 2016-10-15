@@ -10,7 +10,7 @@ import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.testsupport.WireMockResponse;
 import com.github.tomakehurst.wiremock.testsupport.WireMockTestClient;
 
-import br.unicamp.bookstore.dao.Cep;
+import br.unicamp.bookstore.domain.Cep;
 import br.unicamp.bookstore.helper.JsonHelper;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
