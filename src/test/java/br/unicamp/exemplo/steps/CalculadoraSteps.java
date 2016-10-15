@@ -19,7 +19,7 @@ public class CalculadoraSteps {
 
     @Before
     public void setUp() {
-    	calculadora = new Calculadora();
+//    	calculadora = new Calculadora();
     	throwable = null;
     }
 
