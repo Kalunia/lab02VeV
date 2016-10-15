@@ -13,17 +13,6 @@ Scenario Outline: Consultar status
 		|     22222    	    |   Rejeitado |
 		|     33333         |    Adiado   |
 
-Scenario: Consultar status de entrega
-    Given Dado um pedido valido com codigo de rastreio:
-  """
-  AA425231234
-  """
-    When quando o cliente perguntar qual o status do pedido
-    Then o resultado deve ser:
-  """
-  Entregue
-  """
-
 Scenario: Consultar status de entrega com servico dos Correios fora
 	Given Dado um pedido valido com codigo de rastreio:
 	"""
@@ -33,15 +22,4 @@ Scenario: Consultar status de entrega com servico dos Correios fora
 	Then deveria apresentar um erro com a mensagem:
 	"""
 	java.net.SocketException: Unexpected end of file from server
-	"""
-
-Scenario: Consultar status de entrega ainda não identificado pelos correios
-	Given Dado um pedido valido com codigo de rastreio:
-	"""
-	AA100833276BR
-	"""
-	When quando o cliente perguntar qual o status da entrega
-	Then o resultado deve ser:
-	"""
-	O objeto nao e reconhecido pelos correios
 	"""

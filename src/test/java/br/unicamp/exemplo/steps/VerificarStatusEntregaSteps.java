@@ -78,6 +78,7 @@ public class VerificarStatusEntregaSteps {
 
     @Then("^o resultado deve ser:$")
     public void o_resultado_deveria_ser(String statusCorreios) throws Throwable {
+
         assertEquals("Status do produto nos correios deveria ser igual a "+statusCorreios, statusCorreios, this.status.getStatus());
     }
 
